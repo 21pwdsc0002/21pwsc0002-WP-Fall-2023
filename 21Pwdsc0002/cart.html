@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="stles.css">
+    <link rel="stylesheet" href="cn.css">
+    
+
+</head>
+
+
+
+<body>
+    <div class="navbar" style="background-color:black;">
+        <a href="index.html" style="color: white; font-weight: bold;" >Home</a>
+        <a href="about.html" style="color: white; font-weight: bold;" >About</a>
+        <a href="Categories.html" style="color: white; font-weight: bold;">Categories</a>
+        <div class="dropdown">
+            <button class="dropbtn" style="color: white; font-weight: bold;">Book Categories 
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" style="color: white; font-weight: bold;">
+            <a href="categories.html">To Kill a Mockingbird</a>
+            <a href="categories.html">Moby-Dick</a>
+            <a href="categories.html">Brave New World</a>
+            <a href="categories.html">More...</a>
+            </div>
+        </div>
+        <a href="cart.html" style="color: white; font-weight: bold;">Cart</a>
+        <a href="contact.html" style="color: white; font-weight: bold;">Contact Us</a>
+        
+    </div>
+   
+
+
+
+        
+        
+    
+    
+
+<div class="container">
+    
+    
+
+    <form action="">
+        <div class="text-center my-5">
+            <h2> Categories  </h2>
+            <hr / class="w-25 m-auto">
+        </div>
+
+        <br><br><br>
+
+        <div class="row">
+            <div class="col">
+                <h3 class="title">Billing Address</h3>
+                <div class="inputBox">
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" placeholder="John Doe">
+                </div>
+                <div class="inputBox">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="example@example.com">
+                </div>
+                <div class="inputBox">
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" placeholder="Room - Street - Locality">
+                </div>
+                <div class="inputBox">
+                    <label for="city">City:</label>
+                    <input type="text" id="city" placeholder="Islambad">
+                </div>
+                <div class="flex">
+                    <div class="inputBox">
+                        <label for="state">State:</label>
+                        <input type="text" id="state" placeholder="Pakistan">
+                    </div>
+                    <div class="inputBox">
+                        <label for="zip-code">Zip Code:</label>
+                        <input type="text" id="zip-code" placeholder="123456">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h3 class="title">Payment</h3>
+                <div class="inputBox">
+                    <label for="cards-accepted">Cards Accepted:</label>
+                    <img src="image/card_img.png" alt="" id="cards-accepted">
+                </div>
+                <div class="inputBox">
+                    <label for="name-on-card">Name on Card:</label>
+                    <input type="text" id="name-on-card" placeholder="Mr. John Doe">
+                </div>
+                <div class="inputBox">
+                    <label for="credit-card-number">Credit Card Number:</label>
+                    <input type="text" id="credit-card-number" placeholder="1111-2222-3333-4444">
+                </div>
+                <div class="inputBox">
+                    <label for="exp-month">Expiration Month:</label>
+                    <input type="text" id="exp-month" placeholder="January">
+                </div>
+                <div class="flex">
+                    <div class="inputBox">
+                        <label for="exp-year">Expiration Year:</label>
+                        <input type="number" id="exp-year" placeholder="2022">
+                    </div>
+                    <div class="inputBox">
+                        <label for="cvv">CVV:</label>
+                        <input type="text" id="cvv" placeholder="1234">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <input type="submit" value="proceed to checkout" class="submit-btn">
+
+    </form>
+
+</div>    
+    
+</body>
+</html>
